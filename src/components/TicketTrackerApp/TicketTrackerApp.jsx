@@ -1,6 +1,6 @@
 import TicketTracker from '../TicketTracker';
 
-import team from '../../data/team';
+import team from '../../data/teams'
 
 import styles from './TicketTrackerApp.module.scss';
 
@@ -10,7 +10,7 @@ const TicketTrackerApp = () => {
       <h1>Ticket Tracker</h1>
       <section className={styles.trackerContainer}>
         {team.map((employee) => (
-          <Tracker key={employee.id} employee={employee} />
+          <TicketTracker key={employee.id} employee={employee} />
         ))}
       </section>
     </main>
