@@ -1,15 +1,15 @@
-.TeamTicketTrackerApp {
-  
+.TicketTrackerApp {
+
   h1 {
-    margin: 3rem 0;
-    font-size: 3rem;
+    margin: 2rem 0;
+    font-size: 4rem;
     text-align: center;
   }
 }
 
 .trackerContainer {
   display: grid;
-  gap: 1rem;
+  gap: 2rem;
   width: 80%;
   margin: auto;
   grid-template-columns: 1fr;
